@@ -1,0 +1,74 @@
+.Contact_Us {
+  text-align: center;
+}
+.Contact_Us h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #97775b;
+  position: relative;
+}
+.Contact_Us h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #97775b;
+  border-radius: 50%;
+}
+.Contact_Us .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.Contact_Us .form .one_input {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.Contact_Us .form .one_input input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+}
+.Contact_Us .form .number {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+}
+.Contact_Us .form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+}
+.Contact_Us .form button {
+  margin: 1rem 0px;
+  text-transform: capitalize;
+  background-color: #8e7055;
+  text-decoration: none;
+  border: 1px solid #4f453c;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.Contact_Us .form button:hover {
+  color: #97775b;
+  border-color: #97775b;
+  background-color: white;
+}/*# sourceMappingURL=Contact_US.css.map */

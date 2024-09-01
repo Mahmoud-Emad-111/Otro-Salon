@@ -1,0 +1,25 @@
+.footer{
+    height: 100%;
+    width: 100%;
+    background-color: #97775b;
+    text-align: center;
+    .content_footer{
+        img{
+            width: 200px;
+            border-radius: 50%;
+        }
+        h4{
+            color: #0000009d;
+            margin: 0px;
+            font-style: italic;
+        }
+    }
+    p{
+        
+        color: #0000009d;
+        font-weight: 600;
+        padding: 1rem 0px;
+        margin: 0px;
+    }
+
+}

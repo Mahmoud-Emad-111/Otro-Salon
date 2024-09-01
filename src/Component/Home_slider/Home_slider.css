@@ -1,0 +1,9 @@
+.Home_slider .main-slider {
+  height: 50%;
+  overflow: hidden;
+  outline: none;
+}
+.Home_slider .main-slider img {
+  outline: none;
+  width: 100%;
+}/*# sourceMappingURL=Home_slider.css.map */

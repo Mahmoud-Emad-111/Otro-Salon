@@ -1,0 +1,21 @@
+.footer {
+  height: 100%;
+  width: 100%;
+  background-color: #97775b;
+  text-align: center;
+}
+.footer .content_footer img {
+  width: 200px;
+  border-radius: 50%;
+}
+.footer .content_footer h4 {
+  color: rgba(0, 0, 0, 0.6156862745);
+  margin: 0px;
+  font-style: italic;
+}
+.footer p {
+  color: rgba(0, 0, 0, 0.6156862745);
+  font-weight: 600;
+  padding: 1rem 0px;
+  margin: 0px;
+}/*# sourceMappingURL=Footer.css.map */

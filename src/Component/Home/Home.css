@@ -1,0 +1,207 @@
+.Home {
+  overflow: hidden;
+}
+.Home .slider_brand {
+  text-align: center;
+}
+.Home .slider_brand h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #97775b;
+  position: relative;
+}
+.Home .slider_brand h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #97775b;
+  border-radius: 50%;
+}
+.Home .slider_brand .items_brand {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.Home .slider_brand .items_brand img {
+  width: 200px;
+}
+.Home .banner {
+  font-style: italic;
+  padding: 1rem;
+  background-color: #97775b;
+  background-size: contain;
+  margin: 5rem 0px;
+  text-align: center;
+}
+.Home .banner img {
+  width: 100px;
+  border-radius: 50%;
+}
+.Home .banner h1 {
+  color: rgba(0, 0, 0, 0.671);
+}
+.Home .banner button {
+  border: 1px solid #8e7055;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: white;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: black;
+}
+.Home .banner button:hover {
+  background-color: #97775b;
+  color: white;
+  border-color: white;
+}
+.Home .grey {
+  padding: 2rem 0px;
+  background-color: rgb(235, 235, 235);
+}
+.Home .view_services {
+  text-transform: capitalize;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 40px;
+}
+.Home .view_services .item_view_services {
+  width: 100%;
+}
+.Home .view_services .item_view_services h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #97775b;
+  position: relative;
+}
+.Home .view_services .item_view_services h3::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #97775b;
+  border-radius: 50%;
+}
+.Home .view_services .item_view_services P {
+  line-height: 1.5;
+  font-style: italic;
+  font-weight: 500;
+  color: #4f453c;
+}
+.Home .view {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.Home .view a {
+  display: inline-block;
+  margin: 1rem 0px;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  background-color: #8e7055;
+  text-decoration: none;
+  border: 1px solid #4f453c;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+.Home .view a:hover {
+  color: #97775b;
+  border-color: #97775b;
+  background-color: white;
+}
+.Home .HomeVideosLinks {
+  text-align: center;
+}
+.Home .HomeVideosLinks h2 {
+  display: inline-block;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #97775b;
+  position: relative;
+}
+.Home .HomeVideosLinks h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #97775b;
+  border-radius: 50%;
+}
+.Home .HomeVideosLinks .btn_follow {
+  display: inline-block;
+  margin: 1rem 0px;
+  text-transform: capitalize;
+  background-color: #8e7055;
+  text-decoration: none;
+  border: 1px solid #4f453c;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+.Home .HomeVideosLinks .btn_follow:hover {
+  color: #97775b;
+  border-color: #97775b;
+  background-color: white;
+}
+@media (max-width: 825px) {
+  .Home .slider_brand .items_brand img {
+    width: 100px !important;
+  }
+  .Home .slider_brand h2 {
+    font-size: 25px;
+  }
+  .Home .view_services .item_view_services h3 {
+    font-size: 23px;
+  }
+  .Home .view_services .item_view_services p {
+    font-size: 13px;
+  }
+  .Home .view a {
+    font-size: 14px;
+  }
+  .Home .banner h1 {
+    font-size: 28px;
+  }
+  .Home .banner button {
+    font-size: 18px;
+  }
+  .Home .HomeVideosLinks h2 {
+    font-size: 24px;
+  }
+  .Home .HomeVideosLinks .btn_follow {
+    font-size: 15px;
+  }
+}
+@media (max-width: 630px) {
+  .Home .view_services {
+    flex-direction: column;
+    display: flex;
+  }
+  .Home .view_services .item_view_services h3 {
+    font-size: 20px;
+  }
+  .Home .view_services .item_view_services p {
+    font-size: 10px;
+  }
+  .Home .slider_brand .items_brand img {
+    width: 60px !important;
+  }
+  .Home .slider_brand h2 {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=Home.css.map */

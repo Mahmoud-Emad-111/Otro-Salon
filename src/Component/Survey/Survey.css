@@ -1,0 +1,56 @@
+.rating {
+  text-transform: capitalize;
+}
+.rating h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #97775b;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.rating h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #97775b;
+  border-radius: 50%;
+}
+.rating .form {
+  text-align: center;
+}
+.rating .form form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.rating .form form input, .rating .form form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 50%;
+}
+.rating .form button {
+  margin: 1rem 0px;
+  text-transform: capitalize;
+  background-color: #8e7055;
+  text-decoration: none;
+  border: 1px solid #4f453c;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.rating .form button:hover {
+  color: #97775b;
+  border-color: #97775b;
+  background-color: white;
+}/*# sourceMappingURL=survey.css.map */
