@@ -7,8 +7,9 @@
         align-items: center;
         justify-content: space-between;
         .logo{
+            padding: 5px 0px;
             img{
-                width: 70px;
+                width: 55px;
                 border-radius: 50%;
             }
         }
@@ -66,7 +67,7 @@
     .side_bar{
 
         backdrop-filter: blur(8px);
-        background: hsla(0, 0%, 100%, .502);
+        background: hsl(0deg 0% 100% / 89%);
         border-radius: 0 0 5px 5px;
         box-shadow: 2px 0 17px #000;
         height: 100%;

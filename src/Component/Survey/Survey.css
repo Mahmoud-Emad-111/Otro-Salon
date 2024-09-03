@@ -53,4 +53,7 @@
   color: #97775b;
   border-color: #97775b;
   background-color: white;
+}
+.rating .error {
+  color: red;
 }/*# sourceMappingURL=survey.css.map */

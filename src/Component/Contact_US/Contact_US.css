@@ -23,21 +23,17 @@
   align-items: center;
   width: 100%;
 }
+.Contact_Us .form .input {
+  display: flex;
+  flex-direction: column;
+}
 .Contact_Us .form .one_input {
   display: flex;
   align-items: center;
   gap: 20px;
   justify-content: center;
 }
-.Contact_Us .form .one_input input {
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  border: 1px solid #ccc;
-  outline: none;
-  width: 100%;
-}
-.Contact_Us .form .number {
+.Contact_Us .form input {
   padding: 10px;
   border-radius: 5px;
   border: none;
@@ -71,4 +67,10 @@
   color: #97775b;
   border-color: #97775b;
   background-color: white;
+}
+.Contact_Us .form label {
+  color: #8e7055;
+}
+.Contact_Us .form .error {
+  color: red;
 }/*# sourceMappingURL=Contact_US.css.map */
