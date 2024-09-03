@@ -1,6 +1,6 @@
 import axios from "axios";
 const http=axios.create({
-        baseURL:'http://127.0.0.1:8000/api',
+        baseURL:'https://otrosalon.com/otrosalon-dashboard.com/public/api/',
         headers:{
             'X-Requested-With':'XMLHttpRequest',
             'Accept': 'application/json',

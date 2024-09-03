@@ -1,5 +1,6 @@
 {
   "name": "salon",
+  "homepage": "https://otrosalon.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
